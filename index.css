@@ -7,24 +7,25 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, #e8ecec, #dfe0e2);
+    height: 100vh;
 }
 
 .heading{
-    font-size: 6em;
+    font-size: 2.5em;
     font-family: 'Merriweather', serif;
     text-align: center;
     letter-spacing: 3px;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 
 .para{
-    letter-spacing: 2px;
-    width: 40vw;
-    line-height: 22.17px;
+    letter-spacing: 1.5px;
+    width: 60vw;
+    line-height: 20px;
     font-size: 14px;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     color: rgb(107, 107, 107);  
 }
 
@@ -39,25 +40,26 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .about img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 .about p{
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px;
+    color: rgb(129, 131, 131);
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 15px;
 }
 
 .recipes{
     background-color: rgb(235, 235, 235);
-    width: 16vw;
+    width: 15vw;
     height: 46vh;
     margin: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -69,16 +71,16 @@ body{
 }
 
 .recipes img{
-    width: 16vw;
+    width: 15vw;
     border-radius: 8px 8px 0px 0px;
 }
 
 .recipes h2{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Playfair Display', serif;
     font-weight: bolder;
-    font-size: 1.6em;
+    font-size: 1em;
 }
 
 .recipes h2:hover{
@@ -91,32 +93,34 @@ body{
 .food{
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .line{
-    height: 2px;
-    width: 14vw;
-    background-color: rgb(194, 193, 193);
-    margin-top: 20px;
+    height: 1.5px;
+    width: 15vw;
+    background-color: rgb(223, 222, 222);
+
 }
 
 .info{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 14vw;
-    padding: 20px;
+    justify-content: space-around;
+    width: 15vw;
+    padding: 10px;
 }
 
 .info p{
     color: rgb(163, 164, 165);
     font-weight: bold;
+    font-size: 13px;
 }
 
 .cal{
     color: rgb(163, 164, 165);
     font-weight: bold;
+    padding: 10px;
+    font-size: 12px;
 }
 
 .recipes a{
